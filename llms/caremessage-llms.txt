@@ -1,0 +1,31 @@
+# CareMessage
+
+> CareMessage is a healthcare technology non-profit operating one of the largest patient engagement platforms for low-income and underserved populations in the United States. Since 2013 it has reached 20M+ patients and is used by ~1 in 7 federally qualified health centers and 200+ free clinics. CareMessage does not currently publish a public developer API, SDK, or API reference; the platform is accessed through its web application and a login-gated help center.
+
+## Platform
+
+- [Our Platform](https://www.caremessage.org/our-platform/): Patient engagement platform — 1:1 direct messaging, appointment lifecycle messaging, population outreach, health coaching, closed-loop referrals, and SDOH workflows.
+- [Wellness Copilot](https://www.caremessage.org/our-platform/wellness-copilot/): AI-backed diabetes-management automation.
+- [Platform Login](https://app.caremessage.org/): Web application sign-in for customer organizations.
+
+## Docs
+
+- [Help Center](https://help.caremessage.org/en/): Product overview, release notes, and (login-gated) help documentation.
+- [Contact / Request a Demo](https://www.caremessage.org/contact-us/): Onboarding and sales contact.
+
+## Learn
+
+- [Blog](https://www.caremessage.org/blog/): Company and product updates.
+- [Impact Report](https://www.caremessage.org/learn-more/impact-report/): Program outcomes and reach.
+- [Clinical Publications](https://www.caremessage.org/learn-more/clinical-publications/): Peer-reviewed research.
+- [AI Policy Toolkit](https://www.caremessage.org/ai-policy-toolkit/): Guidance for AI use in patient communications.
+
+## Legal
+
+- [Privacy Policy](https://www.caremessage.org/privacy-policy/)
+- [Terms of Use](https://www.caremessage.org/terms-of-use/)
+- [Acceptable Messaging Policy](https://www.caremessage.org/acceptable-messaging-policy/)
+
+## Note
+
+No public API, developer portal, OpenAPI/AsyncAPI specification, SDK/package, MCP server, or /.well-known/ discovery documents were found on CareMessage's public surface as of 2026-07-18.

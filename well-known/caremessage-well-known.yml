@@ -1,0 +1,32 @@
+generated: '2026-07-18'
+method: searched
+source: live probe of /.well-known/ on CareMessage hosts
+hosts:
+- host: https://www.caremessage.org
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://app.caremessage.org
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+notes: >-
+  No /.well-known/ discovery documents are published on either the marketing
+  host or the platform application host. CareMessage exposes no public API,
+  OIDC/OAuth discovery, security.txt, api-catalog, or ai-plugin manifest.

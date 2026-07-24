@@ -1,7 +1,30 @@
 aid: caremessage
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/caremessage.png
 name: Caremessage
-description: Caremessage is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  CareMessage is a healthcare technology non-profit that operates one of the
+  largest patient engagement platforms serving low-income and underserved
+  populations across the United States. Since 2013 the platform has reached more
+  than 20 million patients and is used by roughly 1 in 7 federally qualified
+  health centers plus 200+ free clinics. Its products include 1:1 direct
+  messaging, appointment lifecycle messaging, population outreach, health
+  coaching, closed-loop referrals, Social Determinants of Health (SDOH)
+  workflows, and Wellness Copilot, an AI-backed diabetes-management automation.
+  CareMessage does not currently publish a public developer API, SDK, or API
+  reference; access to the platform is through its web application and a
+  login-gated help center. This profile was surfaced as a Y Combinator portfolio
+  company and enriched from CareMessage's public web surface.
 url: https://raw.githubusercontent.com/api-evangelist/caremessage/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,56 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Patient Engagement
+- Messaging
+- Communications
+- Health Equity
+- SMS
+- Non-Profit
+- Digital Health
 apis: []
+common:
+- type: Website
+  url: https://www.caremessage.org/
+  name: CareMessage Website
+- type: HelpCenter
+  url: https://help.caremessage.org/en/
+  name: CareMessage Help Center
+- type: Support
+  url: https://www.caremessage.org/contact-us/
+  name: Contact / Request a Demo
+- type: Blog
+  url: https://www.caremessage.org/blog/
+  name: CareMessage Blog
+- type: Login
+  url: https://app.caremessage.org/
+  name: Platform Login
+- type: PrivacyPolicy
+  url: https://www.caremessage.org/privacy-policy/
+  name: Privacy Policy
+- type: TermsOfService
+  url: https://www.caremessage.org/terms-of-use/
+  name: Terms of Use
+- type: WellKnown
+  url: well-known/caremessage-well-known.yml
+  name: Well-Known Discovery Index
+- type: DomainSecurity
+  url: security/caremessage-domain-security.yml
+  name: Domain Security Posture
+- type: LLMsTxt
+  url: llms/caremessage-llms.txt
+  name: llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
